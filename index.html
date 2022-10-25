@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="card-warper">
+                <div class="card">
+                    <h1 class="title-text">Guessing Game</h1>
+                        <div class="flex align-center justify-between">
+                            <label for="">Enter Guess Between 1-5 :</label>
+                            <input type="number" placeholder="Enter your value" required name=""
+                                class="input-field" id="inputField">
+                        </div>
+                    
+                        <div class="btn-div">
+                            <button class="check-Btn" id="resultBtn">Check Result</button>
+                        </div>
+                    <div class="footer-content">
+                        <h4 class="random-result" id="messageResult"></h4>
+                        <h4 class="remainig-chance">Remaining Attempts: <span id="remainId">4</span></h4>
+                        <div class="flex justify-center align-center">
+                            <h3 class="win win-text">Won: <span id="won">0</span></h3>
+                            <h3 class="lost-text">Lost: <span id="lost">0</span></h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+
+</html>
